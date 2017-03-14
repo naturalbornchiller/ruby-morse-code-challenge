@@ -1,6 +1,6 @@
 # frozen_string_literal: false
 
-require_relative ./morse_code
+require_relative './morse_code'
 
 def decode_morse(morse_code)
   # Your code here

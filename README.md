@@ -39,12 +39,6 @@ Letters are separated by space, while words are separated by a group of
  three spaces.
 Remove any leading or trailing whitespace.
 
-You should be running `rubocop` before diagnosing any bugs, since it finds
- some of the most common sources of errors.
-After `rubocop` passes _your_ code (ignore any warnings about `spec_helper`),
- you should run `rspec` to run the included tests, which will tell you
- whether or not you've met requirements.
-
 ## Bonus : `parse_bits`
 
 Let's imagine that a signal is being sent along a wire; at the receiving end,
@@ -68,7 +62,14 @@ If they're a slow telegraphist, their dots and dashes might be stretched out,
 The `parse_bits` method should take a string of 1s and 0s and convert it into
  the dots and dashes that were being sent.
 Be sure to disregard any stretches of silence (i.e. 0s) before or after the
- message.
+ message
+## Tasks
+
+Developers should run these often!
+
+- `bin/rake nag`  (or `bundle exec rake nag`): runs code quality analysis tools on your code and complains.
+- `bin/rake test` (or `bundle exec rake test`): runs automated tests.
+- `bin/rake` will run both `nag` and `test`
 
 ## [License](LICENSE)
 

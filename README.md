@@ -63,6 +63,7 @@ The `parse_bits` method should take a string of 1s and 0s and convert it into
  the dots and dashes that were being sent.
 Be sure to disregard any stretches of silence (i.e. 0s) before or after the
  message
+
 ## Tasks
 
 Developers should run these often!

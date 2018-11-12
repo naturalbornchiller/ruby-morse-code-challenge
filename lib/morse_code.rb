@@ -15,4 +15,5 @@ MORSE_CODE = {
   '..--.-' => '_', '.-..-.' => '"', '...-..-' => '$', '.--.-.' => '@',
   '...---...' => 'SOS'
 }.freeze
-## DO NOT CHANGE ANYTHING ABOVE THIS LINE
+
+msg = '-... .. --.   -... ..- - - ...'
